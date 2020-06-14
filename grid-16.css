@@ -1,0 +1,31 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+[class^="col"]{
+    height: 50px;
+    background: #343434;
+    float: left;
+    border: #cccccc solid 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+}
+.col1{
+    width: calc((1/16)*100%);
+}
+.col15{
+    width: calc((15/16)*100%);
+}
+.col14{
+        width: calc((14/16)*100%);
+}
+.col2{
+    width: calc((2/16)*100%);
+}
+.clearfix{
+    clear: both;
+}
+.col1half{
+    width: calc((1/2)*100%);
+}

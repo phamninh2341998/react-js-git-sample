@@ -1,0 +1,35 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col1 > p{
+    text-align: center;
+}
+.col1{
+    background-color: #7f7182;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.col2{
+background-color: #fac7c3;
+padding-left: 40px;
+position: relative;
+}
+
+.col3{
+    background-color:#ffffff;
+    position: absolute;
+    bottom: 0;
+}
