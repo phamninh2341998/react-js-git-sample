@@ -1,0 +1,32 @@
+.{
+    max-width: 0;
+    padding: 0;
+}
+.container{
+    background-color: #bfbfbf;
+    color: white;
+    height: 1000px;
+    padding: 30px;
+  
+}
+p,h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+[class^="col"]{
+    float: left;
+    background-color: #ff7f50;
+    text-align: center;
+}
+.col1{
+    width: calc((2/17)*100%);
+    visibility: hidden;
+}
+.col2{
+    width: calc((1/17)*100%);
+}
+.col3{
+    width: calc((6/17)*100%);
+}
